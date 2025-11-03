@@ -1,62 +1,71 @@
+# 🍕 Pizza Sales Data Analysis
 
-<p align="center">
-  <h1>Pizza Sales Data Analysis</h1>
-</p>
+## Executive Summary
+This project analyzes **pizza sales data** to uncover actionable business insights using **SQL**, **Power Query**, **DAX**, and **Power BI**.  
+It demonstrates the complete data analytics workflow — from business understanding and data preparation to visualization and insight generation — supporting strategic, data-driven decisions.
 
-### 1. Executive Summary
-- This project analyzes pizza sales data to extract valuable business insights using SQL for detailed data analysis, Power Query for data cleaning, DAX for dynamic calculations, and Power BI for interactive visualization. The project showcases the end-to-end process from business problem understanding to dashboard creation, enabling data-driven strategic decisions.
+---
 
-### 2. Business Problem
-- Pizza retailers require actionable insights on sales trends, customer purchasing patterns, and product performance. The objective is to identify KPIs, track sales behavior, and provide clear visual analytics to support inventory and marketing optimization.
+## 💡 Business Problem
+Pizza retailers need clear insights into **sales performance**, **customer purchase behavior**, and **product trends** to improve marketing, inventory, and operations.  
+The goal of this project is to identify **key performance indicators (KPIs)**, analyze sales patterns, and create interactive visual dashboards to support business optimization.
 
-### 3. Methodology
-##### Data Cleaning and Preprocessing:
-- Used Power Query Editor to clean data, handle missing or invalid entries, and ensure data consistency.
+---
 
-- Processed transactional data preparing it for comprehensive analysis.
+##  Methodology
 
-##### SQL Analysis:
-- Calculated key KPIs including Total Revenue, Average Order Value, Total Pizzas Sold, and Total Orders via SQL queries.
+### 1. Data Cleaning & Preprocessing
+- Cleaned and transformed raw data using **Power Query Editor**.  
+- Handled missing or inconsistent entries and standardized formats.  
+- Prepared transactional data for accurate analysis and reporting.
 
-- Explored temporal sales trends: daily, monthly, and hourly sales volumes.
+### 2. SQL Analysis
+- Used **SQL** to calculate KPIs:
+  - Total Revenue  
+  - Average Order Value  
+  - Total Pizzas Sold  
+  - Total Orders  
+- Conducted time-based analyses of sales trends (daily, monthly, hourly).  
+- Analyzed sales performance by **pizza category** and **size**.  
+- Ranked **top- and bottom-performing pizzas** based on revenue and sales volume.
 
-- Analyzed pizza sales by category and size to identify popular segments.
+### 3. Feature Engineering & DAX
+- Developed **DAX measures** for dynamic KPIs in Power BI.  
+- Enabled user interactivity through filters and slicers for better data exploration.
 
-- Created rankings of best- and worst-performing pizzas by revenue and quantity.
+### 4. Dashboard Development
+- Designed a **Power BI dashboard** presenting:
+  - Sales trends and KPIs  
+  - Performance by category, size, and time  
+  - Best- and worst-selling pizzas  
+- Enabled user-driven insights with interactive visualizations and filters.
 
-##### Feature Engineering and DAX:
-- Developed DAX measures for additional KPIs and interactive filtering within Power BI dashboards.
+---
 
-##### Dashboard Development:
-- Designed and built an interactive Power BI dashboard visualizing KPIs, sales trends, and pizza performance.
+##  Skills & Tools Demonstrated
+| Category | Tools / Skills |
+|-----------|----------------|
+| Data Cleaning | Power Query |
+| Data Analysis | SQL |
+| Dashboarding | Power BI |
+| Calculations | DAX |
+| Business Insights | KPI Analysis, Trend Analysis |
 
-- Enabled user-driven exploration with slicers and filters for clearer decision-making insights.
+---
 
-### 4. Skills Demonstrated
-- Data cleaning and preprocessing with Power Query.
+##  Results & Business Insights
+- Identified **peak sales periods** to optimize promotions and staffing.  
+- Determined **top revenue-generating pizzas** and **high-volume order categories**.  
+- Built Power BI dashboards that deliver **real-time, actionable insights** for decision-makers.  
+- Recommended targeted marketing efforts toward **high-value pizzas and peak sales hours**.
 
-- Advanced SQL querying and data aggregation.
+---
 
-- Dynamic metric creation with DAX.
+##  Next Steps
+- Include **customer demographics** for advanced segmentation.  
+- Add **profitability and cost analysis** to the dashboard.  
+- Automate **data refreshes** for real-time monitoring.  
+- Explore **predictive modeling** for future sales forecasting.
 
-- Insightful data visualization and dashboard design in Power BI.
+---
 
-- Translating business requirements into analytical solutions.
-
-### 5. Results & Business Recommendations
-- Identified peak sales periods to optimize staffing and promotions.
-
-- Revealed top revenue-generating pizzas and high-volume order segments.
-
-- Power BI dashboards provide decision-makers with actionable insights and monitoring tools.
-
-- Recommended focused marketing on high-value pizzas and peak times.
-
-### 6. Next Steps
-- Incorporate customer demographics for deeper segmentation.
-
-- Extend dashboard to include profitability and cost analysis.
-
-- Automate data refresh and alerting for real-time insights.
-
-- Explore predictive models for sales forecasting.
