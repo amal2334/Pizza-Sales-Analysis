@@ -6,6 +6,7 @@ It demonstrates the complete data analytics workflow — from business understan
 
 ---
 
+
 ## 💡 Business Problem
 Pizza retailers need clear insights into **sales performance**, **customer purchase behavior**, and **product trends** to improve marketing, inventory, and operations.  
 The goal of this project is to identify **key performance indicators (KPIs)**, analyze sales patterns, and create interactive visual dashboards to support business optimization.
